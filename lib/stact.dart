@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Container(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
-          color: Colors.yellow,
+          color: Colors.grey,
           child: Stack(
             children: [
               Container(
@@ -49,7 +49,6 @@ class _MyHomePageState extends State<MyHomePage> {
         )
 
 
-        출처: https://juntcom.tistory.com/263 [쏘니의 개발블로그:티스토리]
     );
   }
 }

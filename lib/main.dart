@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'column_row.dart';
+import 'plash.dart';
 
 void main() {
   runApp(const MyApp());
