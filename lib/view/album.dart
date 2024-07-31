@@ -1,21 +1,16 @@
-
 import 'package:flutter/material.dart';
-import 'package:flutter_start/provider/album_provider.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_start/provider/album.dart';
+import 'package:flutter_start/provider/album.dart';
+import '../model/model.dart';
 
-import '../model/album.dart';
-
-
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class AlbumView extends StatefulWidget {
+  const AlbumView({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<AlbumView> createState() => _AlbumView();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
-
+class _AlbumView extends  State<AlbumView> {
   late List<Album> albumList;
 
   @override
@@ -24,14 +19,13 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<AlbumProvider>(
       create: ((context) => AlbumProvider()),
       child: Scaffold(
         appBar: AppBar(
-          title: Text("provider" ),
+          title: const Text("test title"),
         ),
         body: Consumer<AlbumProvider>(
           builder: (context, provider, child) {
@@ -40,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 itemCount: albumList.length,
                 itemBuilder: (context, index) {
                   return Container(
-                    padding: EdgeInsets.all(10),
+                    padding: const EdgeInsets.all(10),
                     child: Text("${albumList[index].id} : ${albumList[index].title}"),
                   );
                 }
