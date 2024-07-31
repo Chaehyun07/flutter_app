@@ -76,9 +76,9 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
       color : tabColor,
       child:Center(
         child:Text(
-          tbText,
-          style: const Textstyle(
-            color:colors.white
+          tabText,
+          style: const TextStyle(
+            color:Colors.white
           ),
         ),
       ),
