@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'plash.dart';
+import 'scroleview_pagination.dart';
 
 void main() {
   runApp(const MyApp());
