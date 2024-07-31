@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lecture/provider/album_provider.dart';
-import 'package:flutter_start/provider/album_provider.dart';
 import 'package:provider/provider.dart';
 
 import '../model/album.dart';
@@ -17,13 +16,13 @@ class _MyHomePageState extends State<MyHomePage> {
   late List<Album> albumList;
 
   @override
-  void initState()
+  void initState() {
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider<AlbumProviderovider>(
+    return ChangeNotifierProvider<AlbumProvider>(
       create: ((context) => AlbumProvider()),
       child: Scaffold(
         appBar: AppBar(

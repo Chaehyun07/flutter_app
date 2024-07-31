@@ -1,10 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_start/provider/album.dart';
+import 'package:flutter_start/model/album.dart';
 import 'package:http/http.dart' as http;
-
-import '../model/album.dart';
 
 class AlbumProvider with ChangeNotifier {
   final List<Album> _albumList = List.empty(growable: true);
