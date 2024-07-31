@@ -96,7 +96,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const CreativePage()),
+                  MaterialPageRoute(builder: (context) => const Creative()),
                 );
               },
             ),
@@ -106,7 +106,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const AlignPage()),
+                  MaterialPageRoute(builder: (context) => const Align()),
                 );
               },
             ),
@@ -116,7 +116,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const AlertPage()),
+                  MaterialPageRoute(builder: (context) => const Alert()),
                 );
               },
             ),
@@ -126,7 +126,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const ImagePage()),
+                  MaterialPageRoute(builder: (context) => const Image1()),
                 );
               },
             ),
@@ -136,7 +136,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const ButtonPage()),
+                  MaterialPageRoute(builder: (context) => const Button()),
                 );
               },
             ),
@@ -146,7 +146,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const NavigatorPage()),
+                  MaterialPageRoute(builder: (context) => const Navigator()),
                 );
               },
             ),
@@ -156,7 +156,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const ListViewPage()),
+                  MaterialPageRoute(builder: (context) => const ListView()),
                 );
               },
             ),
@@ -167,7 +167,7 @@ class MyHomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const ScrollviewPaginationPage()),
+                      builder: (context) => const MyHomePage()),
                 );
               },
             ),
@@ -178,7 +178,7 @@ class MyHomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const NavigatorBarPage()),
+                      builder: (context) => const NavigatorBar()),
                 );
               },
             ),
@@ -188,7 +188,7 @@ class MyHomePage extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const FormPage()),
+                  MaterialPageRoute(builder: (context) => const MyHomePage()),
                 );
               },
             ),
