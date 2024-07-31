@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return TextFormField(
       autofocus: true,
       validator: (val) {
-        if(val == null  val.isEmpty) {
+        if(val == null || val.isEmpty) {
           return 'The input is empty';
         } else {
           return null;
@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return TextFormField(
       autofocus: true,
       validator: (val) {
-        if(val == null  val.isEmpty) {
+        if(val == null || val.isEmpty) {
           return 'The input is empty';
         } else {
           return null;
